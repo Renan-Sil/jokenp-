@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jokenpô</title>
+</head>
+<body>
+    <div> <p class="your-score">Sua pontuação: <span id="score">0</span></p> </div>
+    <div> <p class="machine-score">Pontuação da Maquina: <span id="scoremachine">0</span></p> </div>
+    
+    <div class="container">
+        <div class="text">escolha o seu:</div>
+        
+        <button onclick="choice('stone')" class="stone">&#x1F44A;</button>
+        <button onclick="choice('paper')" class="paper">&#128400;</button>
+        <button onclick="choice('scissors')" class="scissors">&#x270C;</button>
+        <p class="result"></p>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
